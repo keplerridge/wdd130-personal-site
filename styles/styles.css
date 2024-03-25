@@ -1,0 +1,128 @@
+html {
+    max-width: 1600px;
+    display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr;
+    grid-template-rows: 100px;
+    background-color: #9EA3B0;
+}
+
+header img {
+    border-radius: 15px;
+    justify-self: center;
+    align-self: center;
+    height: 95%;
+    width: auto;
+}
+
+header h1 {
+    margin-left: 10%;
+    align-self: center;
+    font-size: 3em;
+}
+
+header nav {
+    width: 80%;
+    align-self: center;
+    text-align: end;
+    display: flex;
+    justify-self: end;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+header nav a {
+    font-size: 1.25em;
+    color: black;
+}
+
+.main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    width: 100%;
+    background-color: #15616D;
+}
+
+.hero-section img {
+    width: 100%;
+    height: 750px;
+}
+
+.sled-logo {
+    width: 35%;
+    height: auto;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #15616D;
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #15616D;
+    border: 1px solid transparent;
+}
+
+.description h1 {
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 3em;
+}
+
+.description p {
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5;
+    font-size: 1.75em;
+}
+
+footer {
+    border: solid 1px transparent;
+    background-color: #9EA3B0;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+footer nav {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 75px;
+    text-align: center;
+    align-items: center;
+}
+
+footer nav a {
+    color: black;
+}
+
+#site-link {
+    grid-column: 1/2;
+}
+
+footer nav section {
+    grid-column: 2/-1;
+    display: flex;
+    justify-content: space-around;
+}
