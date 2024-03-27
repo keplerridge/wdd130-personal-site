@@ -3,40 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/polaris.css">
     <title>Khaos | Freeride</title>
 </head>
 <body>
-    <header>
-        <img src="images/sledcompzlogo.png" alt="SledCompz Logo" width="150px" height="150px">
-        <h1>SledCompz</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="index.html">Khaos | Freeride</a>
-            <a href="skidoo.html">RMK Pro | Summit</a>
-            <a href="#">Contact Us</a>
-        </nav>
-    </header>
     <body>
-        <section>
-            <img src="#" alt="hero-img">
+        <header>
+            <img src="images/sledcompzlogo.png" alt="SledCompz Logo" width="150px" height="150px">
+            <h1>SledCompz</h1>
+            <nav>
+                <div class="dropdown">
+                    <button class="dropbtn">Nav</button>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="polaris.html">Pro RMK | Summit</a>
+                        <a href="skidoo.html">Khaos | Freeride</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="polaris">
+            <img src="images/polaris1.png" alt="polaris logo" class="logo">
+            <h3 class="descript-header">Pro RMK</h3>
         </section>
-        <section>
-            <h3 class="descript-header">Polaris 1</h3>
-            <p class="description"></p>
+        <section class="skidoo">
+            <img src="images/skidoo.png" alt="polaris logo"class="logo">
+            <h3 class="descript-header">Summit</h3>
         </section>
-        <section>
-            <h3 class="descript-header">Polaris 2</h3>
-            <p class="description"></p>
+        <section class="sled-info">
+            <section class="category">
+                <h4>Color Options</h4>
+                <h4>Complete Track Profile</h4>
+                <h4>Engine Options</h4>
+                <h4>Gauge Options</h4>
+                <h4>Ski Stance</h4>
+                <h4>Starter Options</h4>
+            </section>
+            <section class="polaris-info">
+                
+            </section>
+            <section class="skidoo-info">
+
+            </section>
         </section>
     </body>
     <footer>
-        <h1>Footer</h1>
         <nav>
-            <a href="#"><img src="#" alt="SkiDoo Facebook"></a>
-            <a href="#"><img src="#" alt="SkiDoo Instagram"></a>
-            <a href="#"><img src="#" alt="Polaris Facebook"></a>
-            <a href="#"><img src="#" alt="Polaris Instagram"></a>
-            <a href="site-plan.html" alt="site plan">Site Plan Link</a>
+            <a href="site-plan.html" alt="site plan" id="site-link">Site Plan Link</a>
+            <section>
+                <a href="https://www.facebook.com/SkiDoo">SkiDoo Facebook</a>
+                <a href="https://www.instagram.com/skidoo/">SkiDoo Instagram</a>
+                <a href="https://www.facebook.com/polarisaus">Polaris Facebook</a>
+                <a href="https://www.instagram.com/polarissnow/">Polaris Instagram</a>
+            </section>
         </nav>
     </footer>
 </body>
