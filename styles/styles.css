@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 html {
-    max-width: 1600px;
+    max-width: 2400px;
     display: flex;
     font-family: "Open Sans", Helvetica, sans-serif;
 }
