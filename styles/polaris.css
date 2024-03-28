@@ -267,6 +267,9 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    font-size: larger;
+    border-right: black solid 2px;
+    border-bottom: black solid 4px;
 }
 
 .polaris-info h6:nth-of-type(1) {
@@ -291,6 +294,7 @@ body {
 
 .polaris-info h6:nth-of-type(6) {
     grid-row: 6/7;
+    border-bottom: none;
 }
 
 .skidoo-info {
@@ -306,6 +310,9 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    font-size: larger;
+    border-left: black solid 2px;
+    border-bottom: black solid 4px;
 }
 
 .skidoo-info h6:nth-of-type(1) {
@@ -330,4 +337,5 @@ body {
 
 .skidoo-info h6:nth-of-type(6) {
     grid-row: 6/7;
+    border-bottom: none;
 }
